@@ -439,7 +439,7 @@ public class Dbconnection {
         String currentUser = System.getProperty("user.name");
         File oldversion = getPreviousVersionOfFile(file);
         try {
-            // Check if the file is not empty
+           
             
             String currentHash = calculateFileHash(file.toPath());
             String sqlSelect = "SELECT fileId, expectedHash FROM Files WHERE fileName = ?";
