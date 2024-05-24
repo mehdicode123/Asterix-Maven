@@ -37,7 +37,6 @@ import org.mindrot.jbcrypt.BCrypt;
  */
 public class Dbconnection {
     
-    // cmJ79&49&9Gc50204cc5
     private static final String URL = "jdbc:mysql://51.68.49.205:3306/asterix_fim";
     private static final String UTILISATEUR = "aster";
     private static final String MOT_DE_PASSE = "hightech2024";
